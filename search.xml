@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Java_day9</title>
+      <link href="/2022/11/02/Java%20Day9/"/>
+      <url>/2022/11/02/Java%20Day9/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Java-Day9"><a href="#Java-Day9" class="headerlink" title="Java Day9"></a>Java Day9</h1><h2 id="1-final"><a href="#1-final" class="headerlink" title="1.final"></a>1.final</h2><p>最终、常量</p><ul><li><p>final修饰的变量不可被改变</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">main</span> &#123;</span><br><span class="line">    <span class="keyword">final</span> <span class="type">int</span> <span class="variable">scort</span> <span class="operator">=</span> <span class="number">100</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span>&#123;</span><br><span class="line">        <span class="comment">//scort不被更改</span></span><br><span class="line">        scort = <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>final 修饰的方法不能被重写</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">A</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">void</span> <span class="title function_">pt</span><span class="params">()</span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;这是A类的final&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">B</span> <span class="keyword">extends</span> <span class="title class_">A</span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//子类不能重构pt</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">pt</span><span class="params">()</span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;重写编译器报错&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure></li><li><p>final 修饰的类不可以被继承</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> -Java基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello My Blog</title>
+      <link href="/2022/11/02/hello-world/"/>
+      <url>/2022/11/02/hello-world/</url>
+      
+        <content type="html"><![CDATA[<hr><blockquote><p>用于测试</p><p>data：2022年11月2日19:51:27</p></blockquote><h1 id="凸-艹皿艹-搞了2天终于搞好了！我太蠢了！"><a href="#凸-艹皿艹-搞了2天终于搞好了！我太蠢了！" class="headerlink" title="凸(艹皿艹 ) 搞了2天终于搞好了！我太蠢了！"></a>凸(艹皿艹 ) 搞了2天终于搞好了！我太蠢了！</h1><h3 id="为什么写博客呢？"><a href="#为什么写博客呢？" class="headerlink" title="为什么写博客呢？"></a>为什么写博客呢？</h3><p>我觉得学东西总是要输出的，傻傻的学不做点笔记以后很容易忘记！</p><p>博客是一种很好的记录工具！！</p><p>致—–以后的自己</p><hr>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
